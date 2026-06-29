@@ -789,3 +789,34 @@ def command(save_path, text):
         return _help_text()
     return (f"I didn't understand '{text}'. {_actions_hint()} "
             "Say 'help' for the full list.")
+
+
+# ----- play it yourself in the terminal --------------------------------- #
+
+def play_in_terminal(save_path=None):
+    """Play Time for Family at a terminal: type a command, read the reply.
+    The same forgiving text layer the AI kin play through -- one line in, a
+    plain-English reply out, nothing yanking your focus (screen-reader
+    friendly by design). 'help' lists commands; 'quit', Ctrl-C, or Ctrl-D
+    leaves. With no argument it shares the windowed game's save, so it's the
+    same park; pass a path to use a different save file."""
+    import tff_engine
+    if not save_path:
+        save_path = str(tff_engine.STATE_FILE)
+    print("Time for Family -- type 'help' for commands, 'quit' to leave.\n")
+    print(command(save_path, "look"))
+    while True:
+        try:
+            line = input("\n> ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nBye for now.")
+            return
+        if line.lower() in ("quit", "exit", "q"):
+            print("Bye for now.")
+            return
+        print(command(save_path, line))
+
+
+if __name__ == "__main__":
+    import sys
+    play_in_terminal(sys.argv[1] if len(sys.argv) > 1 else None)

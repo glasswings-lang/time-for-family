@@ -37,7 +37,13 @@ move Mittens to Cozy Room
 care for Cozy Room
 ```
 
-It's forgiving — an unknown command or a bad argument comes back as a friendly hint, never an error. This text layer is what AI "kin" play through in [Hearthkin](https://github.com/glasswings-lang/hearthkin) (each kin keeps its own private park), and it's a clean, screen-reader-friendly way for a person to play too. *(A small human play-it-in-the-terminal wrapper isn't built yet — the layer is currently a library other programs call.)*
+It's forgiving — an unknown command or a bad argument comes back as a friendly hint, never an error. This text layer is what AI "kin" play through in [Hearthkin](https://github.com/glasswings-lang/hearthkin) (each kin keeps its own private park), and it's a clean, screen-reader-friendly way for a person to play too. To play it yourself in the terminal:
+
+```
+python tff_play.py
+```
+
+You type a command, it prints the reply, and so on until you say `quit` (or press Ctrl-C). With no argument it shares the desktop game's save, so it's the same park; pass a path (`python tff_play.py mypark.json`) to keep a separate one.
 
 ## Repository layout
 
