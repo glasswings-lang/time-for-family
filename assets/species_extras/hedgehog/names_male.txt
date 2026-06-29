@@ -1,0 +1,22 @@
+# Male hedgehog (boar) names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+Spike
+Mr Tiggy
+Hawthorn
+Bristle
+Twig
+Bramley
+Snuffle
+Cobble
+Burrow
+Pickle
+Gobbet
+Roly
+Loaf
+Mossberry
+Foxglove
+Crispin
+Peat
+Toggle
+Beetle
+Snug

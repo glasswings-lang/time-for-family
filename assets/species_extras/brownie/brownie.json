@@ -1,0 +1,29 @@
+{
+  "id": "brownie",
+  "name": "Brownie",
+  "name_plural": "Brownies",
+  "sex_label_female": "wee lady",
+  "sex_label_male": "wee gent",
+  "sex_short_female": "L",
+  "sex_short_male": "G",
+  "compatible_room_types": [
+    "glade",
+    "indoor"
+  ],
+  "starter_age_min_seconds": 60480,
+  "starter_age_max_seconds": 151200,
+  "starter_pairs": 1,
+  "text_directory": "brownie",
+  "care_action_label": "Leave gifts",
+  "litter_label": "brood",
+  "litter_label_plural": "broods",
+  "breeding_age_seconds": 50400,
+  "elder_age_seconds": 252000,
+  "gestation_seconds": 3600,
+  "mother_dependency_seconds": 1800,
+  "twin_chance": 0.05,
+  "disability_chance": 0.0,
+  "name_generation": "markov",
+  "min_babies": 1,
+  "max_babies": 1
+}

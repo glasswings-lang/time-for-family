@@ -1,0 +1,222 @@
+# Announcement messages — every line of text the game speaks via NVDA / shows in the status bar / writes to the activity log.
+# 
+# Format: event_id: template
+#   • Lines starting with '#' are comments. Blank lines are skipped.
+#   • Templates use {placeholder} for runtime values (cat names, room
+#     names, counts, etc.). Each event's available placeholders are
+#     listed in the comment above its entry below — keep those names
+#     if you customise the wording.
+#   • Unknown placeholders fall back to the shipped default for that
+#     event, so a typo can't crash the game mid-announcement.
+#   • Save the file and restart Time for Family to pick up changes.
+
+# placeholders: (no placeholders)
+welcome_home: Welcome home.
+
+# placeholders: (no placeholders)
+new_game_started: Started a new game. Welcome home.
+
+# placeholders: (no placeholders)
+time_paused: Time paused.
+
+# placeholders: (no placeholders)
+time_resumed: Time resumed.
+
+# placeholders: (no placeholders)
+sounds_muted: Sounds muted.
+
+# placeholders: (no placeholders)
+sounds_unmuted: Sounds unmuted.
+
+# placeholders: (no placeholders)
+auto_breeding_off: Auto-breeding off.
+
+# placeholders: (no placeholders)
+auto_breeding_on: Auto-breeding on. Eligible pairs will breed on their own; you'll still get the basket dialog when one's ready.
+
+# placeholders: {cat_a_name}, {cat_b_name}, {room_name}
+pair_formed_one: {cat_a_name} and {cat_b_name} have become a pair in {room_name}.
+
+# placeholders: {pair_descriptions}
+pair_formed_many: New pairs formed: {pair_descriptions}.
+
+# placeholders: {basket_label}, {pair_id}, {n}, {baby_word}
+basket_ready_one: The {basket_label} from pair {pair_id} is ready — {n} {baby_word} waiting on your decision.
+
+# placeholders: {n}
+basket_ready_many: {n} baskets are now ready for decisions.
+
+# placeholders: {parts}
+baskets_summary: Baskets: {parts}.
+
+# placeholders: {basket_label}, {room_name}, {pair_id}, {n}, {baby_word}, {duration}
+auto_breed_basket_arrived: Auto-breeding: a {basket_label} arrived in {room_name} from pair {pair_id} — {n} {baby_word}, ready in {duration}.
+
+# placeholders: {species_word}, {name}
+auto_breed_village_birth: A new {species_word} was born in the village: {name}.
+
+# placeholders: {meter}, {room_name}
+meter_low_one: {meter} is getting low in {room_name}.
+
+# placeholders: {summary}
+meter_low_many: Meters getting low — {summary}.
+
+# placeholders: {meter}, {room_name}
+meter_low_returning_one: While you were away, {meter} ran low in {room_name}.
+
+# placeholders: {summary}
+meter_low_returning_many: While you were away, meters ran low — {summary}.
+
+# placeholders: {verb}, {meter}
+meter_refilled: {verb} {meter}.
+
+# placeholders: {response}, {affection_pct}
+pet_with_response: {response} Affection now {affection_pct}%.
+
+# placeholders: {care}, {name}, {affection_pct}
+pet_no_response: {care} {name}. Affection now {affection_pct}%.
+
+# placeholders: (no placeholders)
+select_creature: Select a creature first.
+
+# placeholders: {species_label}
+select_species: Select a {species_label} first.
+
+# placeholders: {name}, {room_name}
+creature_moved: {name} moved to {room_name}.
+
+# placeholders: (no placeholders)
+dig_no_left: No digs left today. Come back tomorrow.
+
+# placeholders: (no placeholders)
+dig_nothing: You dug, but found nothing this time.
+
+# placeholders: {article}, {name}
+dig_item: You dug up {article} {name}.
+
+# placeholders: {name}, {description}
+dig_object: You found an object: {name} — {description}
+
+# placeholders: {name}, {description}
+dig_treasure: You found a treasure: {name} — {description}
+
+# placeholders: (no placeholders)
+build_no_type: No room type selected.
+
+# placeholders: {type_name}, {reason}
+build_failed_missing: Couldn't build {type_name} — {reason}
+
+# placeholders: {type_name}
+build_failed: Couldn't build {type_name}.
+
+# placeholders: {room_name}, {used}
+build_success: Built {room_name}! Used {used}.
+
+# placeholders: (no placeholders)
+breed_no_pairs: No breeding pairs in this room.
+
+# placeholders: (no placeholders)
+breed_all_young: The pairs in this room are still too young to breed. Select one to see how long until they're ready.
+
+# placeholders: (no placeholders)
+breed_all_resting: All breeding pairs are resting after a recent litter. Try again later.
+
+# placeholders: (no placeholders)
+breed_low_care: The room needs better care first — refill the meters before trying to breed.
+
+# placeholders: (no placeholders)
+breed_no_basket: No basket this time. Try again later.
+
+# placeholders: {basket_label}, {pair_id}, {n}, {baby_word}, {duration}
+breed_success_basket: A {basket_label} arrived from pair {pair_id} — {n} {baby_word}, ready in {duration}.
+
+# placeholders: {old_name}, {new_name}
+creature_renamed: {old_name} is now {new_name}.
+
+# placeholders: {old_name}, {new_name}, {sex_word}, {species_word}
+creature_renamed_saved: {old_name} is now {new_name}. Added {new_name} to your {sex_word} {species_word} names list.
+
+# placeholders: {name}
+creature_to_village: {name} has gone to live in the village. You can visit them any time.
+
+# placeholders: {name}, {room_name}
+creature_came_home: {name} has come back home to {room_name}.
+
+# placeholders: {count}, {species_word}, {names}
+village_villagers_added: Added {count} {species_word} to the village: {names}.
+
+# placeholders: {old_name}, {new_name}
+room_edit_renamed: Renamed {old_name} to {new_name}.
+
+# placeholders: {type_name}
+room_edit_type_changed: Changed room type to {type_name}.
+
+# placeholders: (no placeholders)
+room_edit_allowed_changed: Updated allowed species.
+
+# placeholders: {names}
+room_edit_creatures_moved: Moved {names} to the village.
+
+# placeholders: {names}, {room_name}
+basket_kept_in_room: Welcomed {names} into {room_name}.
+
+# placeholders: {names}, {room_name}, {primary_name}
+basket_spilled_full: {names} went to {room_name} ({primary_name} was full).
+
+# placeholders: {names}, {room_name}, {primary_name}, {species_word}
+basket_spilled_denies: {names} went to {room_name} ({primary_name} doesn't allow {species_word}).
+
+# placeholders: {names}, {species_word}
+basket_to_village_no_space: {names} went to the village (no rooms had a free slot for {species_word}).
+
+# placeholders: {names}, {species_word}
+basket_to_village_no_room: {names} went to the village (no rooms allow {species_word}).
+
+# placeholders: {names}, {has_or_have}
+basket_to_village_intentional: {names} {has_or_have} gone to live in the village — you can visit later.
+
+# placeholders: {duration}
+basket_breeding_age_note: They're young — ready to pair or breed in {duration}.
+
+# placeholders: (no placeholders)
+basket_emptied_no_decisions: The basket emptied with no decisions made.
+
+# placeholders: {room_name}, {total}, {used}
+slot_added_commons: Added a slot to {room_name} (now {total}). Used {used}.
+
+# placeholders: {room_name}, {total}, {treasure_name}
+slot_added_treasure: Added a slot to {room_name} (now {total}). Spent treasure: {treasure_name}.
+
+# placeholders: {room_name}, {total}, {object_name}
+slot_added_object: Added a slot to {room_name} (now {total}). Spent object: {object_name}.
+
+# placeholders: (no placeholders)
+species_added: Species added.
+
+# placeholders: {plural}
+species_added_with_seed: Species added. A starter pair of {plural} is in the village — head to the Village tab to bring them home.
+
+# placeholders: (no placeholders)
+species_saved: Species saved.
+
+# placeholders: (no placeholders)
+species_deleted: Species deleted.
+
+# placeholders: {name}, {n}
+species_deleted_with_purge: Species '{name}' deleted. {n} creature(s) of this species were removed from your save.
+
+# placeholders: (no placeholders)
+room_type_added: Room type added.
+
+# placeholders: (no placeholders)
+room_type_saved: Room type saved.
+
+# placeholders: (no placeholders)
+room_type_deleted: Room type deleted.
+
+# placeholders: {n}
+room_type_deleted_with_purge: Room type deleted ({n} room(s) removed).
+
+# placeholders: (no placeholders)
+settings_saved: Settings saved.
+

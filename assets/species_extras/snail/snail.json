@@ -1,0 +1,28 @@
+{
+  "name": "Snail",
+  "name_plural": "Snails",
+  "id": "snail",
+  "sex_label_male": "male",
+  "sex_label_female": "female",
+  "care_action_label": "Mist",
+  "starter_age_min_seconds": 51840,
+  "starter_age_max_seconds": 155520,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 43200,
+  "elder_age_seconds": 259200,
+  "gestation_seconds": 1800,
+  "mother_dependency_seconds": 0,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "aquatic"
+  ],
+  "text_directory": "snail",
+  "litter_label": "clutch",
+  "litter_label_plural": "clutches",
+  "twin_chance": 0.05,
+  "disability_chance": 0.0,
+  "name_generation": "markov",
+  "min_babies": 1,
+  "max_babies": 2
+}

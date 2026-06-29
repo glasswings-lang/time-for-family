@@ -1,0 +1,24 @@
+# Male snail names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Add or remove names freely — your edits show up the next time
+# the game starts.
+Helix
+Dribble
+Slate
+Slowburn
+Quartz
+Onyx
+Trail
+Patience
+Whorl
+Sediment
+Bubble
+Glide
+Cobble
+Ribbon
+Kelp
+Bram
+Nox
+Mist
+Smolder
+Stilt

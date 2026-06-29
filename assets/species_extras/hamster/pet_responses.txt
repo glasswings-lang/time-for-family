@@ -1,0 +1,15 @@
+# Hamster pet responses. One per line. {name} is replaced with the hamster's name.
+# Picked at random each time you pet a hamster.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} sniffs your fingers very seriously.
+{name} stuffs an offered seed into a cheek pouch.
+{name} climbs your hand looking for adventure.
+{name} sits on their hind legs to inspect you.
+{name} grooms one ear and watches you sideways.
+{name} runs in a tiny excited circle.
+{name} flops dramatically into the bedding.
+{name} nibbles softly on your sleeve.
+{name} pokes their head out from under the bedding.
+{name} gives you a tiny yawn.

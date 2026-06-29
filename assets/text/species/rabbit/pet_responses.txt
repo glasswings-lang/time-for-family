@@ -1,0 +1,15 @@
+# Rabbit pet responses. One per line. {name} is replaced with the rabbit's name.
+# Picked at random each time you pet a rabbit.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} hops over to investigate.
+{name} thumps a hind foot in greeting.
+{name} nuzzles your fingers.
+{name} flops sideways for a belly rub.
+{name} wiggles their nose at you.
+{name} grooms your hand like you're another rabbit.
+{name} binkies a little circle of joy.
+{name} settles into a perfect loaf shape beside you.
+{name} stretches out their hind legs in contentment.
+{name} licks your thumb very politely.

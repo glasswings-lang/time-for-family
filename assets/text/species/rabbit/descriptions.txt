@@ -1,0 +1,25 @@
+# Rabbit descriptions. One per line.
+# Each new rabbit gets a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+A floppy-eared lop with a thoughtful nose-twitch.
+Has the softest grey-brown fur, like a rain cloud.
+Loves to dig little tunnels and pretend they're hiding.
+Stands up on hind legs to survey their kingdom.
+A black-and-white dutch rabbit with the markings of a tiny knight.
+Always sneaks the best lettuce leaves first.
+Binkies sideways through the grass when especially happy.
+A gentle lionhead with a fluffy mane.
+Has one ear that flops and one that stands proud.
+Carries a tiny dandelion around like it's a precious thing.
+Excellent at the art of holding very still.
+A speckled rex with velvet-soft fur.
+Thumps a hind foot whenever the wind sounds suspicious.
+Snow-white with two pink eyes that miss nothing.
+A patient soul who lets you brush their fur for ages.
+Has a single dark spot on their forehead, like a beauty mark.
+Loves the smell of fresh hay more than anything.
+Snuggles up to other rabbits in a perfect bunny pile.
+A tortoiseshell coloration that swirls like autumn leaves.
+Insists on having two carrots, never one.

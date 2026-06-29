@@ -1,0 +1,25 @@
+# Bird descriptions. One per line.
+# Each new bird gets a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Bright yellow plumage that catches the morning sun.
+Has the most musical voice in the aviary.
+Likes to perch on the highest branch they can find.
+A blue-and-grey little fellow with curious eyes.
+Carefully arranges every twig in their nest.
+Loves a sun-warm patch of seed by the window.
+Tilts their head precisely sideways when listening.
+Soft white with hints of palest pink.
+A speckled brown coat that hides them in plain sight.
+Whistles a phrase they obviously made up themselves.
+Bright orange chest, with a darker tail.
+Fluffs their feathers up to twice their actual size.
+Always the first to greet the morning with song.
+A patient watcher of leaves and weather.
+Silvery wings that flash when the sun catches them.
+Has a single perfect black tear-mark beside each eye.
+Loves the small bell hanging in the corner.
+Olive-green and quietly observant.
+Sleeps fluffed up like a tiny round ball.
+Has the loudest opinion about whoever just arrived.

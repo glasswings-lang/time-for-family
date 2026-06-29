@@ -1,0 +1,23 @@
+# Sprite names. Sprites are wisp-bodied — sex labels are both "wisp,"
+# but the name pools stay split so modders can add gendered names if
+# they prefer. By default these read as soft and unisex.
+Glimmer
+Mote
+Aether
+Wisp
+Spindle
+Ember
+Lattice
+Lacelight
+Solace
+Halo
+Drift
+Aria
+Vespera
+Idyll
+Aubergine
+Bloom
+Shimmer
+Caress
+Cinder
+Thalia

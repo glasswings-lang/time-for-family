@@ -1,0 +1,15 @@
+# Rare named treasures found while digging in the park.
+# Format: name | description (one per line).
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+tarnished silver locket | A small clasp marks where a photo once lived.
+sea glass marble | Frosted green, smooth as a worry stone.
+antique brass button | Edges worn round by decades of fingertips.
+tiny porcelain cat | Three inches tall, clearly loved.
+weathered postcard | The address has faded; the wishes are still there.
+silver thimble | Just the size for a sparrow's hat.
+woven friendship bracelet | Faded threads, three knots tied tight.
+wooden bird whistle | Plays one clear note, a little out of tune.
+moss-covered stone | Heavier than it looks, soft to the touch.
+old key | Doesn't seem to fit anything around here.

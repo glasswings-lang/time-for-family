@@ -1,0 +1,22 @@
+# Male hamster names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Buddy
+Squeak
+Scoot
+Theo
+Otis
+Pip
+Beans
+Biscuit
+Pickle
+Chip
+Boots
+Bandit
+Walter
+Gus
+Kip
+Wiggle
+Bramble
+Maple

@@ -1,0 +1,17 @@
+# Sprite greet responses. The "Pet" verb reads as "Greet" for sprites
+# (see care_action_label) — they're present-but-not-touchable.
+{name} pulses softly, acknowledging.
+{name} drifts a little closer, then settles.
+{name} brightens for a heartbeat — a small private hello.
+{name} circles your hand once, careful not to touch.
+{name} chimes — once, very faintly.
+{name} flickers green, then gold, then green again.
+{name} bows the smallest possible bow.
+{name} hovers steady at eye-height for a long quiet moment.
+{name} shimmers in time with your breathing.
+{name} spirals upward and back, content.
+{name} lays a single mote of pollen on your palm and lifts away.
+{name} folds inward and unfolds, a small soft flare.
+{name} keeps perfect pace with your fingertip.
+{name} rests on the air just above your hand, wings still.
+{name} fades for a moment, then returns — a sprite's small joke.

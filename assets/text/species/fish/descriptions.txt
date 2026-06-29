@@ -1,0 +1,25 @@
+# Fish descriptions. One per line.
+# Each new fish gets a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Has iridescent scales that shimmer in the light.
+Swims in slow, contemplative circles.
+Loves the bubble stream by the tank's edge.
+A gentle gold-and-orange koi-coloration.
+Sports a long flowing tail that drifts like silk.
+Has tiny black dots like freckles along their back.
+A spirited little fighter with brilliant blue fins.
+Pearly white with one bright red eye.
+Hides in the plants and peeks out shyly.
+A fancy goldfish with a head shaped like a tiny crown.
+Greenish-grey, perfectly camouflaged among the stones.
+Has a single shimmering stripe of silver down their side.
+Always the first to investigate any new addition.
+Floats serenely near the surface, watching the room.
+A betta with fins like watercolor brush strokes.
+Tiger-striped with bold black bands.
+Tiniest in the tank but somehow always in front.
+Has scales that look hand-painted in shades of sunset.
+Prefers to hover near the warmest corner.
+Patterns shift between blue and green depending on the light.

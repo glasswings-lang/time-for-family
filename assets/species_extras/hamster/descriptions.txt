@@ -1,0 +1,25 @@
+# Hamster descriptions. One per line.
+# Each new hamster gets a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+A golden Syrian with bright black bead eyes.
+Stuffs every cheek pouch to bursting capacity.
+Spins on the wheel with intense, focused energy.
+Ginger-and-white, with a single white sock on one paw.
+A tiny dwarf with a stripe down the back.
+Sleeps curled into a perfect peach-fuzz ball.
+Builds and re-builds the same nest with admirable dedication.
+Has the softest fur on a creature their size.
+Black-and-white panda colouring.
+Loves to climb things they really shouldn't be climbing.
+Tiniest in the litter, somehow always in front.
+A long-haired teddy bear hamster, all fluff.
+Wakes everyone at 3am for vigorous wheel sessions.
+Hides snacks in seven different secret locations.
+Greys and browns mixed like winter forest.
+Bright cinnamon-orange all over.
+Has one ear notched from a brave adventure.
+Sniffs everything thoughtfully before committing.
+Climbs into your hand like an elevator.
+Rolls in the bedding like it's a pile of leaves.

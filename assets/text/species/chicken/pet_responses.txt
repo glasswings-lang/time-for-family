@@ -1,0 +1,15 @@
+# Chicken pet responses. One per line. {name} is replaced with the chicken's name.
+# Picked at random each time you feed a chicken.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} clucks softly in your direction.
+{name} pecks investigatively at the offered grain.
+{name} fluffs up and shakes themselves off.
+{name} gives you a single dignified blink.
+{name} struts a small circle of approval.
+{name} crouches down for a tail-feather scratch.
+{name} tilts their head, considering you and the food.
+{name} accepts the treat with a satisfied warble.
+{name} preens a wing while watching you.
+{name} bok-bok-boks under their breath, contentedly.

@@ -1,0 +1,22 @@
+# Male fish names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Finn
+Reef
+Tide
+Ripple
+Pike
+Skip
+Slate
+Shadow
+Glint
+Dart
+Coast
+Bay
+Stream
+Shoal
+Splash
+Marlin
+Drift
+Riptide

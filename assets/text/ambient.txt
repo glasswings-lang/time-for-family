@@ -1,0 +1,25 @@
+# Ambient observations — short, neutral one-liners the game says
+# during quiet stretches when nothing else is happening. One per
+# line.
+# 
+# These fire on a slow timer (Settings: Ambient interval) and only
+# if no other announcement has happened recently (Ambient quiet
+# time). Toggle Tools → Ambient observations off to silence them
+# entirely. Lines starting with # are ignored. Empty lines are
+# skipped.
+# 
+# Write whatever fits the tone of your save — short, gentle,
+# noun-phrasey works best. The game doesn't substitute creature
+# or room names into these (they're meant to be ambient — true
+# of the world rather than tied to a particular character).
+# 
+# Save the file and restart Time for Family to pick up changes.
+
+A quiet afternoon.
+Soft sounds from the rooms.
+The world is calm for now.
+A breeze drifts through.
+The day passes gently.
+Light shifts across the floor.
+Everyone seems content.
+A small, ordinary moment.

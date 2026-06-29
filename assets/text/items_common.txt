@@ -1,0 +1,11 @@
+# Common items found while digging in the park. One per line.
+# Used as building materials for new rooms.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+stick
+stone
+acorn
+leaf
+pebble
+twig

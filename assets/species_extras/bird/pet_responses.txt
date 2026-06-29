@@ -1,0 +1,15 @@
+# Bird pet responses. One per line. {name} is replaced with the bird's name.
+# Picked at random each time you visit a bird.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} ruffles their feathers in greeting.
+{name} hops down the perch toward you.
+{name} sings a short bright trill.
+{name} peers at you with one bead-bright eye.
+{name} preens a wing thoughtfully.
+{name} bobs their head twice in welcome.
+{name} fluffs up and settles deeper onto the perch.
+{name} pecks delicately at an offered seed.
+{name} tilts their whole body to one side.
+{name} hops a small step closer, considering you.

@@ -1,0 +1,29 @@
+{
+  "name": "Mossling",
+  "name_plural": "Mosslings",
+  "id": "mossling",
+  "sex_label_male": "sprig",
+  "sex_label_female": "sprig",
+  "care_action_label": "Tend",
+  "starter_age_min_seconds": 77760,
+  "starter_age_max_seconds": 194400,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 64800,
+  "elder_age_seconds": 324000,
+  "gestation_seconds": 3600,
+  "mother_dependency_seconds": 5400,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "outdoor",
+    "glade"
+  ],
+  "text_directory": "mossling",
+  "litter_label": "tuft",
+  "litter_label_plural": "tufts",
+  "twin_chance": 0.1,
+  "disability_chance": 0.0,
+  "name_generation": "markov",
+  "min_babies": 1,
+  "max_babies": 1
+}

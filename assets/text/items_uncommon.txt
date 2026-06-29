@@ -1,0 +1,10 @@
+# Uncommon items found while digging in the park. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+ribbon
+feather
+twine
+fabric scrap
+small bell
+bottle cap

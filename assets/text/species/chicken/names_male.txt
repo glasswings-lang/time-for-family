@@ -1,0 +1,22 @@
+# Male chicken names (roosters). One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Reggie
+Albert
+Captain
+Atlas
+Beau
+Hank
+Dale
+Major
+Cliff
+Buzz
+Cogburn
+Stan
+Marty
+Bertie
+Wilbur
+Charlie
+Gus
+Rusty

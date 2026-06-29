@@ -1,0 +1,24 @@
+# Female dog names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Daisy
+Luna
+Maple
+Willow
+Hazel
+Penny
+Nora
+Juno
+Sadie
+Pepper
+Clover
+Poppy
+Olive
+Ruby
+Greta
+Mabel
+Tess
+Lulu
+Bonnie
+Indie

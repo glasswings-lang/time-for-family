@@ -1,0 +1,22 @@
+# Female bird names (hens). One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Robin
+Wren
+Skylark
+Dove
+Swallow
+Lark
+Sparrow
+Finch
+Iris
+Aria
+Melody
+Echo
+Pipit
+Tilly
+Sunny
+Aurora
+Magpie
+Linnet

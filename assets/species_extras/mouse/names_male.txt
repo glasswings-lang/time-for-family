@@ -1,0 +1,24 @@
+# Male mouse names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Add or remove names freely — your edits show up the next time
+# the game starts.
+Bramble
+Acorn
+Burr
+Mott
+Scout
+Pebble
+Thistle
+Finch
+Hop
+Cricket
+Pin
+Tuft
+Brindle
+Fern
+Bean
+Sprig
+Bobbin
+Tilly
+Mossy
+Speck

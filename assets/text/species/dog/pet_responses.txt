@@ -1,0 +1,20 @@
+# Pet responses. One per line. {name} is replaced with the dog's name.
+# Picked at random each time you pet a dog.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} thumps their tail against the floor.
+{name} leans into your hand.
+{name} gives a happy little woof.
+{name} rolls onto their back for belly rubs.
+{name} licks your wrist gently.
+{name} sighs contentedly and closes their eyes.
+{name} bumps their head into your palm.
+{name} brings you a favorite toy.
+{name} flops down beside you with a soft grumble.
+{name} tilts their head, listening to every word.
+{name} grins, tongue lolling.
+{name} bounces in a quick, joyful little spin.
+{name} rests their chin on your knee.
+{name} wiggles all over with happiness.
+{name} stretches out long and lazy beside you.

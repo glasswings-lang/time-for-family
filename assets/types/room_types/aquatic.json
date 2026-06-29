@@ -1,0 +1,37 @@
+{
+  "id": "aquatic",
+  "name": "Aquatic",
+  "description": "A pond or tank — for fish, frogs, and other water creatures (when those species exist).",
+  "meters": [
+    {
+      "key": "food",
+      "label": "Food",
+      "verb_present": "Refill",
+      "verb_past": "Refilled",
+      "low_word": "empty in",
+      "empty_word": "empty",
+      "full_word": "full",
+      "decay_seconds": 86400
+    },
+    {
+      "key": "water_quality",
+      "label": "Water quality",
+      "verb_present": "Refresh",
+      "verb_past": "Refreshed",
+      "low_word": "stale in",
+      "empty_word": "stale and dirty",
+      "full_word": "clear",
+      "decay_seconds": 604800
+    }
+  ],
+  "compatible_species": [
+    "fish",
+    "snail"
+  ],
+  "build_recipe": {
+    "stone": 5,
+    "pebble": 5,
+    "fabric scrap": 1
+  },
+  "default_slots": 8
+}

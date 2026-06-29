@@ -1,0 +1,18 @@
+# Personal play state — the human's GUI saves. Never commit; these are
+# per-machine and not part of the game itself.
+user_data/
+state.json
+
+# Large raw names source (~31M), not read at runtime — kept locally, out of
+# the repo so clones stay light. If the game ever reads it directly, drop
+# this line and commit it.
+names_raw.csv
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Per-kin park saves normally live under ~/.hearthkin/kin/<kin>/ — but ignore
+# any that ever land in the game folder so a stray save never gets committed.
+creature_park.json

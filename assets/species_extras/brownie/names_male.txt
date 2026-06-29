@@ -1,0 +1,24 @@
+# Male cat names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Tam
+Murdo
+Padraig
+Fearghal
+Gareth
+Drest
+Crispin
+Caradoc
+Eachann
+Hob
+Robin
+Brock
+Garrick
+Eammon
+Cuilen
+Whittle
+Jonkin
+Kit
+Hamish
+Lugh

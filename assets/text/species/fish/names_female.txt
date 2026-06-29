@@ -1,0 +1,22 @@
+# Female fish names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Bubbles
+Pearl
+Coral
+Misty
+Lily
+Marina
+Shimmer
+Iris
+Mira
+Aurora
+Dewdrop
+Wren
+Willow
+Brook
+Wave
+Crest
+Nymph
+Petal

@@ -1,0 +1,17 @@
+# Snail pet responses. Used in the announcement when you mist a snail.
+# Use {name} for the snail's name. Lines starting with # are ignored.
+{name} extends an eyestalk, slowly, and looks at you.
+{name} glides toward the moisture without ceremony.
+{name} pulses gently, drinking the air in.
+{name} retreats just slightly, then comes back, satisfied.
+{name} traces a slow arc across the glass, refreshed.
+{name} considers the mist for a long moment, then accepts it.
+{name} tilts their shell into the droplets.
+{name} sighs — somehow, audibly, in snail terms.
+{name} unfurls their full length, content.
+{name} stays exactly where they are and shimmers.
+{name} brushes their foot against your fingertip.
+{name} blinks slowly with both eyestalks.
+{name} curls a thoughtful spiral and resumes browsing.
+{name} accepts the attention as their due.
+{name} hums — or seems to. Hard to tell with snails.

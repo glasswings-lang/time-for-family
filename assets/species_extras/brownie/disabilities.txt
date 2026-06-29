@@ -1,0 +1,32 @@
+# Disabilities — physical or sensory differences this species can be
+# born with. One per line.
+# 
+# This is a respectful representation feature, not a debuff. Disabled
+# creatures pair, breed, age, and are loved like any other. The
+# only systemic effect (when the wild ships) is that disabled
+# creatures stay in the village rather than auto-emigrating —
+# some folks need a home that knows them.
+# 
+# Write factual, neutral language — descriptions, not pity-trips.
+# Examples to start from (delete or keep): 'Born blind.',
+# 'Three legs.', 'Doesn't see well in dim light.'
+# 
+# Optional flags after a description, separated by ' | '. Default
+# behaviour applies when the flag is absent:
+#   '| ok'         = this disability does NOT keep the creature in
+#                    the village. They can auto-emigrate to the
+#                    wild like undisabled creatures.
+#                    (Default: they stay in the village.)
+#   '| no_produce' = elder production is blocked for creatures with
+#                    this disability.
+#                    (Default: they produce normally.)
+# Combine flags freely. Example: 'Heart condition. | no_produce'
+# 
+# The roll fires at every creature's creation; chance is the species'
+# disability_chance (set in the species spec or via the Mods menu's
+# species editor). Default is 0 — opt in per species when you've
+# decided what to write.
+# 
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+

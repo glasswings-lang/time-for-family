@@ -1,0 +1,29 @@
+{
+  "name": "Sprite",
+  "name_plural": "Sprites",
+  "id": "sprite",
+  "sex_label_male": "wisp",
+  "sex_label_female": "wisp",
+  "care_action_label": "Greet",
+  "starter_age_min_seconds": 4320,
+  "starter_age_max_seconds": 10800,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 3600,
+  "elder_age_seconds": 18000,
+  "gestation_seconds": 120,
+  "mother_dependency_seconds": 240,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "outdoor",
+    "glade"
+  ],
+  "text_directory": "sprite",
+  "litter_label": "flicker",
+  "litter_label_plural": "flickers",
+  "twin_chance": 0.15,
+  "disability_chance": 0.0,
+  "name_generation": "markov",
+  "min_babies": 1,
+  "max_babies": 1
+}

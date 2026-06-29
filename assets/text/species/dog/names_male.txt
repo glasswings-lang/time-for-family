@@ -1,0 +1,24 @@
+# Male dog names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Cooper
+Murphy
+Finn
+Buddy
+Bear
+Rusty
+Otis
+Scout
+Toby
+Milo
+Charlie
+Duke
+Hank
+Rocky
+Winston
+Theo
+Bowie
+Beau
+Jasper
+Wally

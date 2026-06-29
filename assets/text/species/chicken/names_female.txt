@@ -1,0 +1,22 @@
+# Female chicken names (hens). One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Henrietta
+Pearl
+Goldie
+Penny
+Daisy
+Tilly
+Harriet
+Ethel
+Mabel
+Beatrice
+Florence
+Ada
+Rosie
+Lulu
+Buttercup
+Clucky
+Greta
+Olive

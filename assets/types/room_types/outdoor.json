@@ -1,0 +1,51 @@
+{
+  "id": "outdoor",
+  "name": "Outdoor",
+  "description": "An outdoor space — a hutch, run, or coop. Bring on the rabbits and chickens (when those species exist).",
+  "meters": [
+    {
+      "key": "food",
+      "label": "Food",
+      "verb_present": "Refill",
+      "verb_past": "Refilled",
+      "low_word": "empty in",
+      "empty_word": "empty",
+      "full_word": "full",
+      "decay_seconds": 43200
+    },
+    {
+      "key": "water",
+      "label": "Water",
+      "verb_present": "Refill",
+      "verb_past": "Refilled",
+      "low_word": "empty in",
+      "empty_word": "empty",
+      "full_word": "full",
+      "decay_seconds": 28800
+    },
+    {
+      "key": "shelter",
+      "label": "Shelter",
+      "verb_present": "Tidy",
+      "verb_past": "Tidied",
+      "low_word": "needs tidying in",
+      "empty_word": "needs tidying now",
+      "full_word": "fresh",
+      "decay_seconds": 172800
+    }
+  ],
+  "compatible_species": [
+    "rabbit",
+    "chicken",
+    "mouse",
+    "hedgehog",
+    "sprite",
+    "mossling"
+  ],
+  "build_recipe": {
+    "stick": 4,
+    "twig": 4,
+    "stone": 4
+  },
+  "default_slots": 6
+}

@@ -1,0 +1,40 @@
+{
+  "id": "aviary",
+  "name": "Aviary",
+  "description": "A covered enclosure full of perches and song. For songbirds, finches, parakeets, and other feathered friends.",
+  "meters": [
+    {
+      "key": "food",
+      "label": "Seed",
+      "verb_present": "Refill",
+      "verb_past": "Refilled",
+      "low_word": "empty in",
+      "empty_word": "empty",
+      "full_word": "full",
+      "decay_seconds": 43200
+    },
+    {
+      "key": "water",
+      "label": "Water",
+      "verb_present": "Refill",
+      "verb_past": "Refilled",
+      "low_word": "empty in",
+      "empty_word": "empty",
+      "full_word": "full",
+      "decay_seconds": 28800
+    },
+    {
+      "key": "nest",
+      "label": "Nest material",
+      "verb_present": "Refresh",
+      "verb_past": "Refreshed",
+      "low_word": "thin in",
+      "empty_word": "bare",
+      "full_word": "lush",
+      "decay_seconds": 259200
+    }
+  ],
+  "compatible_species": ["bird"],
+  "build_recipe": {"twig": 4, "feather": 3, "leaf": 3},
+  "default_slots": 6
+}

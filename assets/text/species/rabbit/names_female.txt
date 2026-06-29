@@ -1,0 +1,22 @@
+# Female rabbit names (does). One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Clover
+Daisy
+Willow
+Hazel
+Honey
+Pebble
+Maple
+Bluebell
+Poppy
+Iris
+Saffron
+Buttercup
+Ivy
+Mossy
+Pansy
+Petal
+Snowdrop
+Marigold

@@ -1,0 +1,29 @@
+{
+  "name": "Mouse",
+  "name_plural": "Mice",
+  "id": "mouse",
+  "sex_label_male": "male",
+  "sex_label_female": "female",
+  "care_action_label": "Pet",
+  "starter_age_min_seconds": 4320,
+  "starter_age_max_seconds": 12960,
+  "starter_pairs": 2,
+  "breeding_age_seconds": 3600,
+  "elder_age_seconds": 21600,
+  "gestation_seconds": 180,
+  "mother_dependency_seconds": 360,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "indoor",
+    "outdoor"
+  ],
+  "text_directory": "mouse",
+  "litter_label": "litter",
+  "litter_label_plural": "litters",
+  "twin_chance": 0.4,
+  "disability_chance": 0.0,
+  "name_generation": "markov",
+  "min_babies": 4,
+  "max_babies": 8
+}

@@ -1,0 +1,25 @@
+# Cat descriptions. One per line.
+# Each new cat is given a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+A small ragged figure in a brown wool cap, hands always busy.
+Tucks themselves behind the kettle and watches everything.
+Has a tiny spoon they polish on their sleeve.
+Mends a sock that nobody knows is being mended.
+Smells faintly of fresh bread and old wood smoke.
+Their eyes are dark and quietly amused.
+Hides under chairs and keeps the floor swept.
+Patches and re-patches a small leather apron.
+Tucks crumbs into hidden pockets for later.
+Will dust the same shelf every night without fail.
+Walks barefoot, leaving the faintest of prints.
+Their cap has a single bent feather they refuse to remove.
+Goes still when looked at directly, then moves once you blink.
+Hums fragments of old songs you almost recognise.
+Politely accepts a saucer of milk and pretends nothing happened.
+Their fingers are clever; nothing stays broken near them long.
+Holds an opinion about every dish in the house.
+Will stop helping immediately if anyone says thank you.
+Their breath fogs the windowpane in tiny perfect clouds.
+Likes the corner near the hearth, even when there is no fire.

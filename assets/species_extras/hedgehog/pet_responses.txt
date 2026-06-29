@@ -1,0 +1,16 @@
+# Hedgehog pet responses. Use {name} for the hedgehog's name.
+{name} flattens their spines and accepts the touch.
+{name} unrolls slowly, deciding to trust you.
+{name} bumps their nose against your hand twice.
+{name} snuffles happily, then snuffles louder.
+{name} rests their chin on your finger, briefly.
+{name} closes their eyes and breathes out a tiny satisfied huff.
+{name} lets you stroke between the spines, just for a second.
+{name} nudges your hand and waits for more.
+{name} pads in a small thoughtful circle around your palm.
+{name} curls into a half-ball — content, not afraid.
+{name} licks your finger once, very seriously.
+{name} accepts the attention as a hedgehog of standing should.
+{name} bristles for a heartbeat, then settles, soft.
+{name} makes the small huffy sound that means yes.
+{name} flicks one paw and nestles closer.

@@ -1,0 +1,23 @@
+# Mouse descriptions. One per line.
+# Each new mouse gets a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+A round little soul who hoards seeds in surprising places.
+Soft grey, with eyes like polished beads.
+Pale-coated and twitchy in the best way.
+Loves the sound of paper crinkling.
+Has a nick in one ear from a curious encounter.
+Sneezes whenever a sunbeam lands on the windowsill.
+Chooses one specific corner and defends it forever.
+Hides crumbs under the bedding and forgets where.
+Always looks like they just heard a question.
+Naps with both paws curled tight under the chin.
+Brown and white in patches that look hand-painted.
+Has a long tail they use as a fifth limb.
+Tiny, dust-coloured, easy to overlook and very proud of it.
+Squeaks at exactly nothing, twice, then settles.
+Climbs anything they're told not to.
+Folds their ears flat when they're concentrating.
+Will eat a single oat for ten minutes.
+Curls up inside a teacup like it was made for them.
+Has the small confident bearing of an emperor.
+Treats every leaf like an excellent gift.

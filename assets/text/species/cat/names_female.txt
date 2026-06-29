@@ -1,0 +1,26 @@
+# Female cat names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Mittens
+Luna
+Willow
+Pepper
+Hazel
+Clover
+Daisy
+Poppy
+Sage
+Misty
+Olive
+Juniper
+Cricket
+Maple
+Coco
+Ivy
+Raven
+Curls
+Rosey
+Cinders
+Mouse
+minny

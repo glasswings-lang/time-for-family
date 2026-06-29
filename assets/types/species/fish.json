@@ -1,0 +1,27 @@
+{
+  "name": "Fish",
+  "name_plural": "Fish",
+  "id": "fish",
+  "sex_label_male": "male",
+  "sex_label_female": "female",
+  "care_action_label": "Feed",
+  "litter_label": "clutch",
+  "starter_age_min_seconds": 25920,
+  "starter_age_max_seconds": 27000,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 21600,
+  "elder_age_seconds": 45000,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "aquatic"
+  ],
+  "text_directory": "fish",
+  "litter_label_plural": "clutches",
+  "name_generation": "markov",
+  "min_babies": 1,
+  "max_babies": 3,
+  "breed_cooldown_seconds": 21600,
+  "gestation_seconds": 0,
+  "mother_dependency_seconds": 0
+}

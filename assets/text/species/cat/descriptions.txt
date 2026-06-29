@@ -1,0 +1,29 @@
+# Cat descriptions. One per line.
+# Each new cat is given a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+A sleepy tabby who claims every sunbeam as their own.
+Has one orange paw and a knack for finding warm laps.
+Carries a small toy mouse everywhere they go.
+A tuxedo with the dignity of a small mayor.
+Tiny but loud — has very firm opinions about dinner timing.
+A long-haired cloud who sheds with every step.
+Nervous around brooms; gentle with everything else.
+Once climbed the curtains in a very dramatic incident.
+Loves the kitchen sink for mysterious reasons.
+An expert in the art of standing on important paperwork.
+Soft grey fur and even softer manners.
+A skilled negotiator at meal times.
+Cherishes a particular cardboard box more than anything.
+Hums a near-melodic purr when content.
+Bats at falling leaves and is almost always victorious.
+Walks like a small lion through the garden.
+Trills hello at every doorway.
+Prefers the quiet bookshelf to the loud window.
+Has the prettiest tail to ever flick at a problem.
+Stays up late, sleeps until afternoon — every day.
+Grumpy! Except when petted in just the right place... 
+The purr-fect friend. 
+The experience of getting thered at. Except alive.
+Flops in front of you and puddles. Constently.

@@ -1,0 +1,23 @@
+# Male rabbit names (bucks). One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Thumper
+Burrow
+Acorn
+Oak
+Skipper
+Patch
+Biscuit
+Hopper
+Nibble
+Wisp
+Briar
+Gus
+Bramble
+Toby
+Cloud
+Pip
+Jasper
+Rye
+Barley

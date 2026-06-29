@@ -1,0 +1,27 @@
+{
+  "name": "Bird",
+  "name_plural": "Birds",
+  "id": "bird",
+  "sex_label_male": "cock",
+  "sex_label_female": "hen",
+  "care_action_label": "Visit",
+  "litter_label": "clutch",
+  "litter_label_plural": "clutches",
+  "starter_age_min_seconds": 77760,
+  "starter_age_max_seconds": 151200,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 64800,
+  "elder_age_seconds": 252000,
+  "gestation_seconds": 2400,
+  "mother_dependency_seconds": 5400,
+  "twin_chance": 0.1,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "aviary"
+  ],
+  "text_directory": "bird",
+  "name_generation": "markov",
+  "min_babies": 2,
+  "max_babies": 5
+}

@@ -1,0 +1,24 @@
+# Mossling names (sprigs). One per line.
+# Mosslings are tiny moss-and-bark creatures — earthy, slow-growing,
+# inscrutable in a comfortable way. Names lean toward plant words,
+# minerals, and quiet sounds.
+Lichen
+Sage
+Morel
+Petal
+Sundew
+Verdigris
+Patience
+Quartzling
+Velvet
+Bloom
+Brindle
+Rye
+Holly
+Heather
+Tatter
+Loam
+Tendril
+Pondskim
+Whorl
+Filigree

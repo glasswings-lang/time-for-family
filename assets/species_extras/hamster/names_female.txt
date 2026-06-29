@@ -1,0 +1,22 @@
+# Female hamster names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Peanut
+Whiskers
+Sprinkles
+Coco
+Mochi
+Pumpkin
+Ginger
+Cinnamon
+Caramel
+Hazel
+Honey
+Toffee
+Daisy
+Penny
+Ruby
+Pearl
+Nutmeg
+Truffle

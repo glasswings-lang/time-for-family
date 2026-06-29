@@ -1,0 +1,15 @@
+# Pet responses. One per line. {name} is replaced with the cat's name.
+# Picked at random each time you pet a cat.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} purrs softly.
+{name} nuzzles your hand.
+{name} flicks their tail in greeting.
+{name} blinks slowly at you.
+{name} headbutts your palm.
+{name} starts kneading your sleeve.
+{name} stretches and yawns.
+{name} trills happily.
+{name} rolls over to expose their belly.
+{name} rubs their cheek against your thumb.

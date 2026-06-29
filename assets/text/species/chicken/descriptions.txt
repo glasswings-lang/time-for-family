@@ -1,0 +1,25 @@
+# Chicken descriptions. One per line.
+# Each new chicken gets a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+A speckled Sussex with a magnificent fanned tail.
+Lays the largest brown eggs in the coop.
+First out and last in every single morning.
+Bossy with everyone except their rooster.
+Black silkie fluff that makes them look like a moving cloud.
+A fawn-coloured Brahma with feathered feet like fancy boots.
+Loves to dust-bathe in the same favourite spot.
+A Rhode Island red with a glossy mahogany shine.
+Strolls around the yard like they own the place.
+Has the loudest morning crow on the property.
+A bantam — half the size of the others, twice the attitude.
+Lavender-grey with a perfectly preened wing.
+Bright white leghorn with a striking red comb.
+Pecks the same patch of ground for hours on end.
+A polish chicken with a dramatic feathered crest.
+Trusts you enough to eat from your hand.
+Buff-orange and round as a pumpkin.
+Sneaks into the garden whenever the gate's left open.
+Always knows when treats are coming, somehow.
+Sleek and dark, with a shimmering green sheen in the sun.

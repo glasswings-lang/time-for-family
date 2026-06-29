@@ -1,0 +1,21 @@
+# Sprite names — second pool, equally soft. See names_female.txt note.
+Spark
+Dapple
+Lume
+Wick
+Coda
+Hush
+Petrichor
+Tilt
+Scree
+Ardent
+Rill
+Quint
+Echo
+Ash
+Tarn
+Vale
+Briar
+Glint
+Thread
+Yarrow

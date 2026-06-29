@@ -1,0 +1,27 @@
+{
+  "name": "Cat",
+  "name_plural": "Cats",
+  "id": "cat",
+  "sex_label_male": "male",
+  "sex_label_female": "female",
+  "care_action_label": "Pet",
+  "starter_age_min_seconds": 25920,
+  "starter_age_max_seconds": 43200,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 21600,
+  "elder_age_seconds": 72000,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "indoor"
+  ],
+  "text_directory": "cat",
+  "litter_label": "litter",
+  "litter_label_plural": "litters",
+  "name_generation": "markov",
+  "min_babies": 1,
+  "max_babies": 4,
+  "breed_cooldown_seconds": 86400,
+  "gestation_seconds": 1800,
+  "mother_dependency_seconds": 3600
+}

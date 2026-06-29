@@ -1,0 +1,27 @@
+{
+  "name": "Rabbit",
+  "name_plural": "Rabbits",
+  "id": "rabbit",
+  "sex_label_male": "buck",
+  "sex_label_female": "doe",
+  "care_action_label": "Pet",
+  "starter_age_min_seconds": 12960,
+  "starter_age_max_seconds": 27000,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 10800,
+  "elder_age_seconds": 45000,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "outdoor"
+  ],
+  "text_directory": "rabbit",
+  "litter_label": "litter",
+  "litter_label_plural": "litters",
+  "name_generation": "markov",
+  "min_babies": 4,
+  "max_babies": 7,
+  "breed_cooldown_seconds": 43200,
+  "gestation_seconds": 900,
+  "mother_dependency_seconds": 1800
+}

@@ -1,0 +1,22 @@
+# Female hedgehog (sow) names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+Bramble
+Quill
+Hazel
+Mossy
+Briar
+Pippin
+Tansy
+Fern
+Marigold
+Snuffle
+Heather
+Clover
+Acorn
+Sage
+Honey
+Posy
+Burdock
+Whisk
+Daisy
+Juniper

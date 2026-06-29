@@ -1,0 +1,13 @@
+# Practical objects found while digging in the park.
+# Format: name | description (one per line).
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+cozy basket | A woven basket lined with soft fabric.
+scratching post | Sisal-wrapped, well-loved.
+sun-warmed mat | A square of warmth in any room.
+ceramic bowl | A wide ceramic bowl with chipped edges.
+toy mouse | A felt mouse, slightly nibbled.
+rope tassel | Just begging to be batted at.
+bell on a string | Tinkles softly at the slightest breath.
+padded cushion | Sized for one curled-up cat.

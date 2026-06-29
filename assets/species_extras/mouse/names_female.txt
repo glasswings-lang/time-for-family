@@ -1,0 +1,24 @@
+# Female mouse names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Add or remove names freely — your edits show up the next time
+# the game starts.
+Crumb
+Pip
+Hazel
+Whisker
+Nutmeg
+Clover
+Poppy
+Sage
+Wren
+Tansy
+Mira
+Dot
+Daisy
+Honey
+Wisp
+Marigold
+Twig
+Beebee
+Juniper
+Quill

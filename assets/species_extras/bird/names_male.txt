@@ -1,0 +1,22 @@
+# Male bird names (cocks). One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Pip
+Chip
+Whistle
+Twig
+Crow
+Rook
+Jay
+Magnus
+Whittle
+Dash
+Storm
+Falcon
+Talon
+Crest
+Caspian
+Wisp
+Cliff
+Atlas

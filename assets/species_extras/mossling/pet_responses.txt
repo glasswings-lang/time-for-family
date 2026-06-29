@@ -1,0 +1,17 @@
+# Mossling tend responses. The "Pet" verb reads as "Tend" for mosslings
+# — closer to gardening than petting.
+{name} sighs softly, satisfied.
+{name} settles deeper into the soil and unfurls a frond.
+{name} hums a low slow note.
+{name} extends a single moss-tip to brush your finger.
+{name} leans into your hand, the weight of a small wet stone.
+{name} blinks one earthy eye, slowly.
+{name} folds and unfolds, a green sigh.
+{name} rolls a tiny pinecone back and forth in approval.
+{name} leaves a smudge of moss on your fingertip — they meant to.
+{name} curls up in a perfect cool pebble of contentment.
+{name} smells more strongly of bark than usual — happy mossling.
+{name} settles in, faint glow brightening for a heartbeat.
+{name} extends a frond toward the light.
+{name} accepts the tending with the dignity of moss.
+{name} pads their roots a little deeper, feeling at home.

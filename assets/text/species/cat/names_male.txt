@@ -1,0 +1,27 @@
+# Male cat names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Smokey
+Oliver
+Felix
+Biscuit
+Marlow
+Pip
+Otis
+Theo
+Toby
+Basil
+Rusty
+Murphy
+Ash
+Kip
+Finn
+Mochi
+Tiger
+Snowy
+Stormy
+Cloudy
+Grey
+Crow
+Wiskers

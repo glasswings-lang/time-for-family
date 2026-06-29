@@ -1,0 +1,15 @@
+# Fish pet responses. One per line. {name} is replaced with the fish's name.
+# Picked at random each time you "pet" (feed) a fish.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} blows a string of tiny bubbles.
+{name} swims up to the glass to investigate.
+{name} darts in excited zig-zags.
+{name} flares their fins prettily.
+{name} nibbles delicately at your offering.
+{name} circles once, twice, then accepts the treat.
+{name} flicks their tail in a happy wiggle.
+{name} hovers in place, watching you with one eye.
+{name} dives down then floats up gracefully.
+{name} catches the food in mid-water with a tiny pop.

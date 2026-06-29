@@ -1,0 +1,16 @@
+# Disabilities — physical or sensory differences this species can be
+# born with. One per line.
+#
+# Respectful representation, not a debuff. Disabled sprites pair, breed,
+# age, and are loved like any other. The one in-game effect: when retired
+# (past max breeding age) they stay in the village permanently rather
+# than fading away into the wild.
+#
+# For sprites — beings of light and breath — examples might be:
+# 'Glows only in dim places.', 'One wing folded, never quite open.',
+# 'Their chime is silent.'
+#
+# Default chance is 0 — opt in via the species spec.
+#
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.

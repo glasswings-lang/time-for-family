@@ -1,0 +1,24 @@
+# Female snail names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Add or remove names freely — your edits show up the next time
+# the game starts.
+Pearl
+Spiral
+Glimmer
+Lotus
+Dewey
+Coral
+Mossy
+Marble
+Conch
+Dapple
+Liminal
+Slowpoke
+Drift
+Murmur
+Lichen
+Curl
+Dawn
+Moonshell
+Silt
+Curio

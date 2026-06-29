@@ -1,0 +1,25 @@
+# Dog descriptions. One per line.
+# Each new dog is given a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+A scruffy mutt with a tail that never stops wagging.
+Has one floppy ear and one that stands up no matter what.
+Carries the same well-loved tennis ball everywhere.
+A long-eared hound with the softest brown eyes.
+Tiny but mighty — alerts the household to every leaf.
+Cloud-soft fur that holds onto every burr from the garden.
+A bit shy at first; absolutely devoted once they trust you.
+Once stole an entire loaf of bread in a memorable incident.
+Loves puddles for reasons no one understands.
+An expert in the art of leaning their full weight against your leg.
+Sleek black fur and an even sleeker grin.
+Negotiates dinner with very serious eye contact.
+Cherishes one battered stuffed duck above all earthly things.
+Sighs deeply when settling, like a much older soul.
+Charges after fallen leaves and is occasionally victorious.
+Trots through the garden as though they own the place.
+Greets every visitor with the dignified offering of a sock.
+Prefers the porch breeze to the loud living room.
+Has the proudest plume of a tail you'll ever see.
+A morning dog through and through — up at first light.

@@ -1,0 +1,27 @@
+# Colors for Sprites. One per line.
+#
+# Each new sprite is born with two colors — one inherited
+# from each parent. If both parents are present in the save, the
+# baby gets one color from each; otherwise both come from this
+# pool. There's a small chance per color (Settings: Color
+# mutation chance) that a baby gets a fresh roll from this pool
+# instead of inheriting — like a recessive ancestor trait.
+#
+# Descriptions can reference {color} and {color2} — see
+# descriptions.txt. Placeholders fill in at birth from the
+# creature's two colors, so they stay stable forever after.
+# Empty pool = no colors; the detail panel hides the Colour
+# line rather than showing it blank.
+#
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+silver
+amber
+rosewater
+moonlit
+glimmer
+twilight
+dawn
+rain-grey
+stormcloud

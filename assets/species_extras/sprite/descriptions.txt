@@ -1,0 +1,23 @@
+# Sprite descriptions. One per line.
+# Sprites are tiny garden / woodland spirits — present, glimmering,
+# almost-but-not-quite tame. Their lives are short and bright.
+A pale flicker, the size of a thumbprint, that moves with the wind.
+Hovers above moss and never quite lands.
+Glows faintly green when content.
+Their voice — when you hear it — is a single distant chime.
+Trails a dust of pollen wherever they pass.
+Burns a soft warm gold at twilight.
+Sits quietly on the stem of a flower for hours.
+Made of breath and dappled light and a hint of something older.
+Their wings are too small to be plausible and yet there they are.
+Spins one slow circle every dawn, then settles.
+Their colour shifts with the weather — silver in rain, amber in sun.
+Speaks only in the smallest pauses between birdcalls.
+A tuft of dandelion seed wearing a face.
+Folds themselves smaller when looked at directly.
+Always seems to know which leaf will fall next.
+Smells faintly of crushed mint and old sunlight.
+Their reflection in a still pool ripples even when the water doesn't.
+Carries a tiny seed they never plant.
+Rises with the steam off a warm cup, then settles back down.
+Hums in a key you've never quite heard before.

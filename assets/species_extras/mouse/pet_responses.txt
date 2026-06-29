@@ -1,0 +1,18 @@
+# Mouse pet responses. One per line.
+# Used in the announcement when you pet a specific mouse.
+# Use {name} for the mouse's name. Lines starting with # are ignored.
+{name} freezes for a moment, then leans into your fingertip.
+{name} whiffles their nose and nestles closer.
+{name} curls up in your palm like a small warm coin.
+{name} sneezes politely.
+{name} grooms a paw, then yours.
+{name} stares for a long second, then flops sideways.
+{name} chitters quietly — a little engine of contentment.
+{name} sniffs your finger, then your wrist, then your finger again.
+{name} pushes their head against your hand twice.
+{name} settles into a tiny perfect ball.
+{name} climbs your sleeve to investigate the cuff.
+{name} runs in a small loop around your hand and stops, satisfied.
+{name} accepts the attention with tremendous dignity.
+{name} licks one whisker contemplatively.
+{name} yawns — a tiny pink yawn — and burrows deeper.

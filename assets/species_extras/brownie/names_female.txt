@@ -1,0 +1,24 @@
+# Female cat names. One per line.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+Maeve
+Brigid
+Una
+Aine
+Morag
+Cait
+Thistle
+Bluebell
+Eilidh
+Alis
+Rhys
+Wren
+Cinder
+Honeysuckle
+Tamsin
+Senga
+Iona
+Kestrel
+Nessa
+Hettie

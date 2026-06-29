@@ -1,0 +1,28 @@
+{
+  "name": "Hedgehog",
+  "name_plural": "Hedgehogs",
+  "id": "hedgehog",
+  "sex_label_male": "boar",
+  "sex_label_female": "sow",
+  "care_action_label": "Pet",
+  "starter_age_min_seconds": 38880,
+  "starter_age_max_seconds": 86400,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 32400,
+  "elder_age_seconds": 144000,
+  "gestation_seconds": 1200,
+  "mother_dependency_seconds": 2700,
+  "sex_short_female": "S",
+  "sex_short_male": "B",
+  "compatible_room_types": [
+    "outdoor"
+  ],
+  "text_directory": "hedgehog",
+  "litter_label": "litter",
+  "litter_label_plural": "litters",
+  "twin_chance": 0.0,
+  "disability_chance": 0.0,
+  "name_generation": "markov",
+  "min_babies": 3,
+  "max_babies": 5
+}

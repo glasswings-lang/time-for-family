@@ -1,0 +1,23 @@
+# Snail descriptions. One per line.
+# Each new snail gets a random description from this pool when born.
+# Lines starting with # are ignored. Empty lines are skipped.
+A spiral the colour of weak tea.
+Wears a shell striped like a small worn lampshade.
+Glides on a single silver foot, perfectly content.
+Spends ten thoughtful minutes deciding which leaf is best.
+Has a shell so dark it almost reads as deep blue.
+Leaves a tiny shimmer wherever they have been.
+Carries themselves like an unhurried scholar.
+Loves the rim of the bowl above all else.
+Tucks all the way in for naps, sometimes for hours.
+Pale and translucent — you can see the heart, faintly.
+Always faces the moon at night, even indoors.
+Has flecks of gold in the shell that catch the light.
+Considers a single droplet a whole event.
+Their eyestalks are perpetually surprised by everything.
+Browses moss the way a sommelier samples wine.
+Trails a glistening line that fades by morning.
+Their shell has one tiny chip, badge of an old adventure.
+Solemn and small and entirely themselves.
+Coils to the right, which apparently matters in snail circles.
+Sleeps wedged into the corner like a treasured marble.

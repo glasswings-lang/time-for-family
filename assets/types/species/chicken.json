@@ -1,0 +1,27 @@
+{
+  "name": "Chicken",
+  "name_plural": "Chickens",
+  "id": "chicken",
+  "sex_label_male": "rooster",
+  "sex_label_female": "hen",
+  "care_action_label": "Feed",
+  "litter_label": "clutch",
+  "starter_age_min_seconds": 19440,
+  "starter_age_max_seconds": 32400,
+  "starter_pairs": 1,
+  "breeding_age_seconds": 16200,
+  "elder_age_seconds": 54000,
+  "sex_short_female": "F",
+  "sex_short_male": "M",
+  "compatible_room_types": [
+    "outdoor"
+  ],
+  "text_directory": "chicken",
+  "litter_label_plural": "clutches",
+  "name_generation": "markov",
+  "min_babies": 6,
+  "max_babies": 12,
+  "breed_cooldown_seconds": 21600,
+  "gestation_seconds": 600,
+  "mother_dependency_seconds": 600
+}

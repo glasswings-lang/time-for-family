@@ -1,0 +1,15 @@
+# Disabilities — physical or sensory differences this species can be
+# born with. One per line.
+#
+# Respectful representation, not a debuff. Disabled mosslings pair,
+# breed, age, and are loved like any other. The one in-game effect:
+# when retired (past max breeding age) they stay in the village
+# permanently rather than auto-emigrating to the wild.
+#
+# For mosslings, examples might be: 'Their moss grows in patches.',
+# 'Cannot retract their fronds.', 'Slow even by mossling standards.'
+#
+# Default chance is 0 — opt in via the species spec.
+#
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.

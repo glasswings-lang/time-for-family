@@ -1,0 +1,49 @@
+{
+  "id": "glade",
+  "name": "Glade",
+  "description": "A small enchanted clearing — moss-floored, dappled, half real and half not. The rare folk like it here: sprites and mosslings, and only them. Building one requires a treasure (any will do — the place takes the gift, not the form).",
+  "meters": [
+    {
+      "key": "food",
+      "label": "Forage",
+      "verb_present": "Replenish",
+      "verb_past": "Replenished",
+      "low_word": "thin in",
+      "empty_word": "bare",
+      "full_word": "lush",
+      "decay_seconds": 64800
+    },
+    {
+      "key": "water",
+      "label": "Spring",
+      "verb_present": "Refresh",
+      "verb_past": "Refreshed",
+      "low_word": "trickling in",
+      "empty_word": "dry",
+      "full_word": "flowing",
+      "decay_seconds": 43200
+    },
+    {
+      "key": "cover",
+      "label": "Cover",
+      "verb_present": "Restore",
+      "verb_past": "Restored",
+      "low_word": "thinning in",
+      "empty_word": "thin",
+      "full_word": "deep",
+      "decay_seconds": 172800
+    }
+  ],
+  "compatible_species": [
+    "sprite",
+    "mossling"
+  ],
+  "build_recipe": {
+    "moss": 5,
+    "dewdrop": 4,
+    "mushroom cap": 3,
+    "pinecone": 2
+  },
+  "treasure_cost": 1,
+  "default_slots": 4
+}

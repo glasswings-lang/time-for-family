@@ -1,0 +1,20 @@
+# Pet responses. One per line. {name} is replaced with the cat's name.
+# Picked at random each time you pet a cat.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} accepts the gift with a tiny solemn nod.
+{name} pretends not to notice and quietly tucks it away.
+{name} cocks their head, considering, then bows.
+{name} makes a small approving sound and disappears for a moment.
+{name} taps a button on their cap — a brownie's small thanks.
+{name} touches the gift with one careful finger and beams.
+{name} polishes the gift on a sleeve and tucks it into a pocket.
+{name} murmurs a phrase you don't quite catch but feel kindly toward.
+{name} bends low and tucks the gift behind a stone.
+{name} considers the offering at length, then pockets it.
+{name} sets the gift on a tiny invisible shelf only they can see.
+{name} smiles — the rare smile of a brownie who is pleased.
+{name} stamps a tiny foot, which apparently is approval.
+{name} nods once, satisfied, and resumes whatever they were not-doing.
+{name} pads off and returns with a single dust-bunny, perfectly arranged.
