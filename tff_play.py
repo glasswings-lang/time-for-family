@@ -210,13 +210,53 @@ def _resolve_species(name):
     return None
 
 
+_ROOM_QUALIFIERS = (
+    "the indoor room ", "the outdoor room ", "indoor room ", "outdoor room ",
+    "the room ", "indoor ", "outdoor ", "room ", "the ",
+)
+
+
+def _strip_room_qualifier(key):
+    """Drop a leading room-type qualifier the model likes to prepend, so
+    'indoor room Indoor 1' resolves to the room actually named 'Indoor 1'.
+    Returns the stripped key, or the original if nothing matched."""
+    for q in _ROOM_QUALIFIERS:
+        if key.startswith(q):
+            return key[len(q):].strip()
+    return key
+
+
 def _resolve_room(state, name):
+    """Find a room by name or id. Forgiving on purpose: small local models
+    tend to prepend the room TYPE ('indoor room Indoor 1') or bury the room
+    name inside a longer phrase ('care for Juna and Otiscuit in Indoor 1').
+    Match exact first, then a type-qualifier strip, then a longest substring
+    match -- but never guess when two rooms are equally plausible."""
     if not name:
         return None
+    rooms = state.get("rooms", [])
     key = name.strip().lower()
-    for room in state.get("rooms", []):
+    # 1. exact name (case-insensitive) or exact id.
+    for room in rooms:
         if room.get("name", "").lower() == key or room.get("id") == name:
             return room
+    # 2. strip a leading room-type qualifier and retry exact.
+    stripped = _strip_room_qualifier(key)
+    if stripped and stripped != key:
+        for room in rooms:
+            if room.get("name", "").lower() == stripped:
+                return room
+    # 3. a room name appearing somewhere inside what they typed. Prefer the
+    #    longest such name (so 'Indoor 1' doesn't shadow 'Indoor 10'); bail
+    #    if the longest is still tied between two rooms.
+    matches = [r for r in rooms
+               if r.get("name", "").lower() and r.get("name", "").lower() in key]
+    if matches:
+        matches.sort(key=lambda r: len(r.get("name", "")), reverse=True)
+        longest = matches[0].get("name", "").lower()
+        top = [r for r in matches if r.get("name", "").lower() == longest]
+        if len(top) == 1:
+            return top[0]
     return None
 
 
@@ -232,8 +272,10 @@ def _resolve_room_type(name):
 
 def _resolve_creature(state, name):
     """Return (cat, location) where location is the room dict or the string
-    'village'; (None, None) if not found. Matches creature name
-    case-insensitively."""
+    'village'; (None, None) if not found. Exact name match first, then a
+    substring fallback ('pet Juna please' -> Juna) -- but only when exactly
+    one distinct creature is named, so an ambiguous phrase doesn't silently
+    act on just one of several."""
     if not name:
         return None, None
     key = name.strip().lower()
@@ -244,6 +286,20 @@ def _resolve_creature(state, name):
     for c in state.get("village", []):
         if c.get("name", "").lower() == key:
             return c, "village"
+    # Substring fallback: a creature name buried in a longer phrase.
+    cands = []
+    for room in state.get("rooms", []):
+        for c in room.get("creatures", []):
+            cn = c.get("name", "").lower()
+            if cn and cn in key:
+                cands.append((c, room))
+    for c in state.get("village", []):
+        cn = c.get("name", "").lower()
+        if cn and cn in key:
+            cands.append((c, "village"))
+    distinct = {t[0].get("name", "").lower() for t in cands}
+    if len(distinct) == 1:
+        return cands[0]
     return None, None
 
 
