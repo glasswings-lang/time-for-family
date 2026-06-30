@@ -20,6 +20,7 @@ install; only the SAVE differs per player, so an AI plays the same world
 shape with its own separate park.
 """
 
+import random
 from pathlib import Path
 
 import tff_engine
@@ -145,6 +146,78 @@ def _join_readable(items):
     if len(items) == 2:
         return f"{items[0]} and {items[1]}"
     return ", ".join(items[:-1]) + f", and {items[-1]}"
+
+
+# How a creature REACTS to being petted, by species. A verb phrase that
+# follows the creature's name ("Clove headbutts your hand and rumbles").
+# Picked at random so the same creature reacts differently each time; falls
+# back to the generic pool for any species not listed here.
+_PET_REACTIONS = {
+    "cat": [
+        "headbutts your hand and rumbles",
+        "flops over to show you a belly that is, you both know, a trap",
+        "kneads your knee, purring",
+        "winds around you with their tail held high",
+        "melts into a warm puddle under your palm",
+        "chirps and bumps a cheek against yours",
+    ],
+    "rabbit": [
+        "does a delighted little binky",
+        "flops onto their side with a contented sigh",
+        "grinds their teeth softly - a rabbit's purr",
+        "nudges your hand for more, nose going a mile a minute",
+        "stretches out long and loose beside you",
+        "gives your fingers one investigative nibble, then settles",
+    ],
+    "dog": [
+        "leans their whole weight into you",
+        "thumps their tail against the floor",
+        "rolls shamelessly over for belly rubs",
+        "rests their chin on your knee with a sigh",
+        "wiggles their entire back end with joy",
+    ],
+    "chicken": [
+        "fluffs up and settles into your hands",
+        "makes a low, contented trill",
+        "preens happily against your arm",
+        "burbles and tucks one foot up, cozy",
+    ],
+    "fish": [
+        "drifts up to mouth gently at your fingertip",
+        "loops once, slow and pleased",
+        "shimmies their fins and hovers close",
+    ],
+    "ai": [
+        "shimmers a little warmer",
+        "hums a low, contented tone",
+        "pulses soft, like a held breath let go",
+    ],
+}
+_PET_REACTIONS_DEFAULT = [
+    "leans into the attention",
+    "settles happily under your hand",
+    "softens, plainly pleased",
+]
+
+
+def _pet_reaction(cat):
+    """A random in-character reaction to being petted, chosen by species."""
+    pool = _PET_REACTIONS.get(cat.get("species", "")) or _PET_REACTIONS_DEFAULT
+    return random.choice(pool)
+
+
+def _pet_reactions_for(creatures):
+    """One '<name> <reaction>' per creature, avoiding repeated reactions
+    within the same batch while the pools are large enough (so a room full
+    of cats doesn't all do the identical thing)."""
+    used, out = set(), []
+    for c in creatures:
+        pool = _PET_REACTIONS.get(c.get("species", "")) or _PET_REACTIONS_DEFAULT
+        fresh = [r for r in pool if r not in used] or pool
+        r = random.choice(fresh)
+        used.add(r)
+        out.append(f"{c['name']} {r}")
+    return out
 
 
 def _meter_word(value):
@@ -551,12 +624,12 @@ def care(save_path, room):
             if where == "village":
                 return (f"{cat['name']} is in the village - move them into a "
                         "room first to care for them there.")
+            was_lonely = cat.get("affection", 0.5) < 0.3
             pet_cat(state, where["id"], cat["id"])
             _save(state)
-            persona = _personality(cat)
-            tail = f" {persona}" if persona else ""
-            return (f"You spend a little while with {cat['name']} - "
-                    f"{_mood_word(cat)} now.{tail}")
+            reaction = _pet_reaction(cat)
+            beat = " They'd clearly been craving the company." if was_lonely else ""
+            return f"{cat['name']} {reaction}.{beat}"
         return f"There's no room or creature called '{room}'."
     meters = list(target.get("meters", {}).keys())
     for m in meters:
@@ -567,15 +640,13 @@ def care(save_path, room):
     _save(state)
     if not creatures and not meters:
         return f"{target['name']} has nothing to care for yet."
-    bits = []
-    if meters:
-        bits.append("refilled all care meters")
-    if creatures:
-        # Name each creature + how they feel now, scaling to a full room.
-        moods = _join_readable(
-            [f"{c['name']} ({_mood_word(c)})" for c in creatures])
-        bits.append(f"gave everyone some affection - {moods}")
-    return f"In {target['name']}: " + " and ".join(bits) + "."
+    if not creatures:
+        return f"In {target['name']}: refilled all care meters."
+    # A reaction for each creature, scaling readably to a full room, so the
+    # bulk command the kins actually use still shows every animal responding.
+    reactions = _join_readable(_pet_reactions_for(creatures))
+    lead = "refilled all care meters; " if meters else ""
+    return f"In {target['name']}: {lead}{reactions}."
 
 
 def breed(save_path, room):
