@@ -127,6 +127,26 @@ def _describe_creature(cat):
             f"{_sex_word(cat, sid)} {_species_word(sid)} ({age_phrase})")
 
 
+def _personality(cat):
+    """A creature's stored personality line (its `description`), or ''.
+    Surfaced only when the focus is a SINGLE creature (look-at / petting);
+    room and bulk-care views stay concise so a full room reads cleanly."""
+    return (cat.get("description") or "").strip()
+
+
+def _join_readable(items):
+    """'A' / 'A and B' / 'A, B, and C' — scales to any number of creatures
+    so caring for a full room reads as a sentence, not a wall of text."""
+    items = [i for i in items if i]
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} and {items[1]}"
+    return ", ".join(items[:-1]) + f", and {items[-1]}"
+
+
 def _meter_word(value):
     if value >= 0.95:
         return "full"
@@ -333,7 +353,9 @@ def look(save_path, focus=""):
         cat, where = _resolve_creature(state, focus)
         if cat is not None:
             place = "the village" if where == "village" else where["name"]
-            return f"{_describe_creature(cat)}.\n  Lives in: {place}."
+            persona = _personality(cat)
+            persona_line = f" {persona}" if persona else ""
+            return f"{_describe_creature(cat)}.{persona_line}\n  Lives in: {place}."
         return (f"I couldn't find a room, creature, or 'village' called "
                 f"'{focus}'. {_actions_hint()}")
 
@@ -531,7 +553,10 @@ def care(save_path, room):
                         "room first to care for them there.")
             pet_cat(state, where["id"], cat["id"])
             _save(state)
-            return f"Gave {cat['name']} some affection ({_mood_word(cat)})."
+            persona = _personality(cat)
+            tail = f" {persona}" if persona else ""
+            return (f"You spend a little while with {cat['name']} - "
+                    f"{_mood_word(cat)} now.{tail}")
         return f"There's no room or creature called '{room}'."
     meters = list(target.get("meters", {}).keys())
     for m in meters:
@@ -546,7 +571,10 @@ def care(save_path, room):
     if meters:
         bits.append("refilled all care meters")
     if creatures:
-        bits.append(f"gave affection to {len(creatures)} creature(s)")
+        # Name each creature + how they feel now, scaling to a full room.
+        moods = _join_readable(
+            [f"{c['name']} ({_mood_word(c)})" for c in creatures])
+        bits.append(f"gave everyone some affection - {moods}")
     return f"In {target['name']}: " + " and ".join(bits) + "."
 
 
