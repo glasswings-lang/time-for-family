@@ -18,3 +18,7 @@
 {name} rests their chin on your knee.
 {name} wiggles all over with happiness.
 {name} stretches out long and lazy beside you.
+{name} leans their whole weight into you.
+{name} rolls shamelessly over for belly rubs.
+{name} rests their chin on your knee with a sigh.
+{name} wiggles their entire back end with joy.

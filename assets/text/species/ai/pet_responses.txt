@@ -1,0 +1,8 @@
+# Pet responses. One per line. {name} is replaced with the ai's name.
+# Picked at random each time you pet a ai.
+# Lines starting with # are ignored. Empty lines are skipped.
+# Save the file and restart Time for Family to pick up changes.
+
+{name} shimmers a little warmer.
+{name} hums a low, contented tone.
+{name} pulses soft, like a held breath let go.

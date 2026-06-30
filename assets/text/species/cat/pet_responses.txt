@@ -13,3 +13,9 @@
 {name} trills happily.
 {name} rolls over to expose their belly.
 {name} rubs their cheek against your thumb.
+{name} headbutts your hand and rumbles.
+{name} flops over to show you a belly that is, you both know, a trap.
+{name} kneads your knee, purring.
+{name} winds around you with their tail held high.
+{name} melts into a warm puddle under your palm.
+{name} chirps and bumps a cheek against yours.

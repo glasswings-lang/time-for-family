@@ -13,3 +13,9 @@
 {name} settles into a perfect loaf shape beside you.
 {name} stretches out their hind legs in contentment.
 {name} licks your thumb very politely.
+{name} does a delighted little binky.
+{name} flops onto their side with a contented sigh.
+{name} grinds their teeth softly - a rabbit's purr.
+{name} nudges your hand for more, nose going a mile a minute.
+{name} stretches out long and loose beside you.
+{name} gives your fingers one investigative nibble, then settles.

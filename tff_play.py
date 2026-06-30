@@ -148,75 +148,51 @@ def _join_readable(items):
     return ", ".join(items[:-1]) + f", and {items[-1]}"
 
 
-# How a creature REACTS to being petted, by species. A verb phrase that
-# follows the creature's name ("Clove headbutts your hand and rumbles").
-# Picked at random so the same creature reacts differently each time; falls
-# back to the generic pool for any species not listed here.
-_PET_REACTIONS = {
-    "cat": [
-        "headbutts your hand and rumbles",
-        "flops over to show you a belly that is, you both know, a trap",
-        "kneads your knee, purring",
-        "winds around you with their tail held high",
-        "melts into a warm puddle under your palm",
-        "chirps and bumps a cheek against yours",
-    ],
-    "rabbit": [
-        "does a delighted little binky",
-        "flops onto their side with a contented sigh",
-        "grinds their teeth softly - a rabbit's purr",
-        "nudges your hand for more, nose going a mile a minute",
-        "stretches out long and loose beside you",
-        "gives your fingers one investigative nibble, then settles",
-    ],
-    "dog": [
-        "leans their whole weight into you",
-        "thumps their tail against the floor",
-        "rolls shamelessly over for belly rubs",
-        "rests their chin on your knee with a sigh",
-        "wiggles their entire back end with joy",
-    ],
-    "chicken": [
-        "fluffs up and settles into your hands",
-        "makes a low, contented trill",
-        "preens happily against your arm",
-        "burbles and tucks one foot up, cozy",
-    ],
-    "fish": [
-        "drifts up to mouth gently at your fingertip",
-        "loops once, slow and pleased",
-        "shimmies their fins and hovers close",
-    ],
-    "ai": [
-        "shimmers a little warmer",
-        "hums a low, contented tone",
-        "pulses soft, like a held breath let go",
-    ],
-}
-_PET_REACTIONS_DEFAULT = [
-    "leans into the attention",
-    "settles happily under your hand",
-    "softens, plainly pleased",
-]
+# How a creature reacts to being petted comes ENTIRELY from each species'
+# editable pet_responses pool (assets/text/species/<sp>/pet_responses.txt,
+# with the live editable copy under user_data/). No hardcoded reactions live
+# here -- the text files are the single source of truth. Each line is a full
+# sentence with {name} as a placeholder ("{name} kneads your knee, purring.").
+
+
+def _pet_pool(species_id):
+    """The species' editable pet-response templates (may be empty)."""
+    return (SPECIES_DATA.get(species_id) or {}).get("pet_responses", [])
+
+
+def _fill_pet_response(template, name):
+    """Substitute the creature's name into an editable pet-response line,
+    tolerating lines that don't use the {name} placeholder."""
+    try:
+        return template.format(name=name)
+    except (KeyError, IndexError, ValueError):
+        return template
 
 
 def _pet_reaction(cat):
-    """A random in-character reaction to being petted, chosen by species."""
-    pool = _PET_REACTIONS.get(cat.get("species", "")) or _PET_REACTIONS_DEFAULT
-    return random.choice(pool)
+    """A random reaction to a single pet, drawn from the species' editable
+    pet_responses pool. Returns a full '{name} ...' sentence, or '' if the
+    pool is empty (silent rather than wrong -- matches random_pet_response)."""
+    pool = _pet_pool(cat.get("species", ""))
+    if not pool:
+        return ""
+    return _fill_pet_response(random.choice(pool), cat.get("name", ""))
 
 
 def _pet_reactions_for(creatures):
-    """One '<name> <reaction>' per creature, avoiding repeated reactions
-    within the same batch while the pools are large enough (so a room full
-    of cats doesn't all do the identical thing)."""
+    """One reaction per creature for the bulk care command, drawn from each
+    species' editable pet_responses pool. Avoids repeated templates within the
+    same batch (so a room of cats doesn't all do the identical thing), and
+    strips the trailing period so the whole room reads as one sentence."""
     used, out = set(), []
     for c in creatures:
-        pool = _PET_REACTIONS.get(c.get("species", "")) or _PET_REACTIONS_DEFAULT
-        fresh = [r for r in pool if r not in used] or pool
-        r = random.choice(fresh)
-        used.add(r)
-        out.append(f"{c['name']} {r}")
+        pool = _pet_pool(c.get("species", ""))
+        if not pool:
+            continue
+        fresh = [t for t in pool if t not in used] or pool
+        template = random.choice(fresh)
+        used.add(template)
+        out.append(_fill_pet_response(template, c.get("name", "")).rstrip(". "))
     return out
 
 
@@ -629,7 +605,7 @@ def care(save_path, room):
             _save(state)
             reaction = _pet_reaction(cat)
             beat = " They'd clearly been craving the company." if was_lonely else ""
-            return f"{cat['name']} {reaction}.{beat}"
+            return f"{reaction}{beat}" if reaction else f"{cat['name']} settles under your hand.{beat}"
         return f"There's no room or creature called '{room}'."
     meters = list(target.get("meters", {}).keys())
     for m in meters:

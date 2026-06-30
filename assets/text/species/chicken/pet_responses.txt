@@ -13,3 +13,7 @@
 {name} accepts the treat with a satisfied warble.
 {name} preens a wing while watching you.
 {name} bok-bok-boks under their breath, contentedly.
+{name} fluffs up and settles into your hands.
+{name} makes a low, contented trill.
+{name} preens happily against your arm.
+{name} burbles and tucks one foot up, cozy.

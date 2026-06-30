@@ -13,3 +13,6 @@
 {name} hovers in place, watching you with one eye.
 {name} dives down then floats up gracefully.
 {name} catches the food in mid-water with a tiny pop.
+{name} drifts up to mouth gently at your fingertip.
+{name} loops once, slow and pleased.
+{name} shimmies their fins and hovers close.
